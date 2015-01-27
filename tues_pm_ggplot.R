@@ -11,7 +11,7 @@ library("plyr")
 library("ggthemes")
 library("reshape2")
 
-# Iris dataset
+# Iris dataset scatterplot
 myplot <- ggplot(data = iris, aes(x = Sepal.Length, y = Sepal.Width))
 summary(myplot)
 
